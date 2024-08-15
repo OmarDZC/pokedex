@@ -1,0 +1,100 @@
+
+:root {
+    background-color: rgb(185, 95, 95);
+
+}
+
+body {
+    display: grid;
+    place-content: center;
+    height: 100vh;
+    
+}
+
+
+#header {
+    width: 100%;
+    margin-bottom: -2px;
+    display: flex;
+    justify-content: center;
+}
+
+.header-img {
+    width: 70%;
+    height: auto;
+    display: block;
+    
+}
+
+#containerPokd {
+    height: 75vh;
+    width: 70vh;
+    font-size: 25px;
+    background-color: aliceblue;
+    color: black;
+    padding: 10px 10px;  
+}
+
+#containerPokd form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#containerPokd form label {
+    font-weight: bolder;
+}
+
+#containerPokd form label[for="name"] {
+    color: red;
+}
+
+#containerPokd form input {
+    width: 30%;
+    background-color: #ffff;
+    color: black;
+    font-size: 20px;
+    margin-left: 15px;
+}
+
+#containerPokd form #buscar {
+    width: 10%;
+    color-scheme: dark light;
+} 
+
+.botonAtras {
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+    color-scheme: dark light;
+}
+
+.containerPokemon {
+    display: grid;
+    place-content: center;
+}
+
+.containerPokemon h2{
+    margin-bottom: 2px; /*entre h2 e img*/
+}
+
+.stats {
+    margin-top: 2px; 
+}
+
+.containerPokemon ul {
+    margin-top: 2px;
+}
+
+.imagenPkm {
+    width: 15vh;
+    height: 15vh;
+}
+
+.evoluciones {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+}
+
